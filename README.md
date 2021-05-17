@@ -1,46 +1,32 @@
-# Election-Analysis
-Python
-## Project Overview
-A Colorado Board of Elections employee (Tom) has given me the following tasks to complete the election audit of a recent local congressional election.
+#Colorado Congressional Election Analysis
 
-Total number of votes cast:---------------------------------------369,711 
+##Overview of Election Audit:
+The purpose of this document is to provide the Colorado Board of Elections with an Audit of a recent local congressional election in a Colorado precinct.  
+Questions to be answered in this review of the data include voter information by county, by candidate, total number of voters, and winner identification.  An overview of our findings is below:
 
-List of Candidates:---------------------------------------------- Charles Casper Stockman
-                                                                  Diana Degette
-                                                                  Raymon Anthony Doane
-                                                                  
-Total number of votes each candid-------------------------------- Charles Casper Stockman   85,213
-                                                                  Diana Degette             272,892
-                                                                  Raymon Anthony Doane      11,606
-                                                                  
-Percentage of votes each candidate won.-------------------------- Charles Casper Stockman   23.0%
-                                                                  Diana Degette             73.8%
-                                                                  Raymon Anthony Doane      3.1%
-                                                                  
-Winner of election based on popular vote------------------------  Diana Degette
+##Election Audit Results:
 
-## Resources
-Data Source: election_results_.csv
-Software: Python 3.9.2 64-bit, Visual Studio Code 1.56.0
-Technical support from Robert Enno, Jacob Akhmerov and Gael Gatera.
+>	Total number of votes cast = 369,711
 
-## Summary
-The analysis of the election show that:
+>	Total number of votes cast in each county:
+	Jefferson	= 38,855 or 10.5%
+	Denver 		= 306,055 or 82.8%
+	Arapahoe 	= 24,801 or 6.7%
 
-  There were 369,711 votes cast in the election.
-  
-  The candidates were:
-      Charles Casper Stockman
-      Diana Degette
-      Raymon Anthony Doane
+>	County with largest number of votes: Denver
 
-The candidates results were:
-      Charles Casper Stockman received 23.0% of the vote and a total of 85,213 votes.
-      Diana Degette received 73.8% of the vote and a total of 272,892 votes.
-      Raymon Anthony Doane received 3.1% of the vote and a total of 11,606 votes.
-      
-The winner of the election was:
-      Diana Degette, who received 73.8% of the vote and a total of 272,892 votes.
+>	Total number of votes per candidate:
+	Charles Casper Stockman received 23.0% of the vote and a total of 85,213 votes. 
+	Diana Degette received 73.8% of the vote and a total of 272,892 votes. 	
+	Raymon Anthony Doane received 3.1% of the vote and a total of 11,606 votes.
+
+>	Diana Degette won the election with 73.8% of the vote
+
+##Election-Audit Summary:
+	We hope that you have found this data insightful and usefull.  With the addition of some additional data, additional questions could be answered.  For example, including 
+	county totals for eligible voters would yield analysis of voter participation uncovering regional trends in voter participation as well as more efficient deployment of voting 
+  resources such as equipment, poll locations, and staff.  Various demographic data such as gender, race, ethnicity social class and age could help identify groups who are    
+  increasing or decreasing in terms of voter participation.  Knowing this can help to create more precise outreach efforts to increase participation over all.
       
       
       
